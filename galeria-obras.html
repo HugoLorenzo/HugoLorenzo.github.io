@@ -1,0 +1,177 @@
+<html>
+    <head>
+       <!--tipografias-->
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+       <title>Galeria de Obras</title>
+       <!--llamar css,reset-->
+       <link href="css/reset.css" rel="stylesheet" type="text/css">
+       <link href="css/styles.css" rel="stylesheet" type="text/css">
+       <script src="./js/App.js"></script>
+    </head>
+    <body>
+        <!--header start-->
+        <header class="main-header">
+            <div class="content">
+                <a href="index.html" class="logo">
+                    <figure>
+                        <img src="img/logo-p.svg">
+                    </figure>
+                </a>
+                <!--Nav start-->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="arte-psicodelico.html">Artistas</a></li>
+                        <li><a href="galeria-obras.html">Obras</a></li>
+                        <li><a href="entradas.html">Entradas</a></li>
+                        <li><a href="arte-psicodelico.html">Arte Pscodelico</a></li>
+                    </ul>
+                </nav>
+                <!--Nav end-->
+            </div>
+        </header>
+        <!--header end-->
+
+        <!--Seccion Galeria de Obras start-->
+        <section class="galeria-obras">
+            <div class="content">
+                <h1>Galeria de Obras</h1>
+                <ul>
+                    <li>
+                            <h3>Maquinación</h3>
+                            <figure>
+                                <img src="img/cara.jpg" alt="cara tranquila">
+                            </figure>
+                            <div id="description" class="description">
+                                <h4>Descripción:</h4>
+                                <p> Esta Obra intenta representar todos los pensamientos que pasan por nuestra cabeza diariamente algunos de estos pensamientos pueden  ser abrumadores , pero aun así  le ponemos nuestra mejor cara al mundo exterior. En la obra se intenta transmitir el rostro tranquilo de la mujer.</p>
+                            </div>
+                            <button onclick="showText()">Mostrar más</button>
+                            <button onclick="hideText()">Mostrar menos</button>
+                    </li>
+                    <li>
+                            <h3>Discovery, 1992</h3>
+                            <figure>
+                                <img src="img/mundo.jpg" alt="El mundo">
+                            </figure>
+                            <div class="description" id="description2">
+                                <h4>Descripción:</h4>
+                                <p>Representa al mundo en todo su esplendor, nos muestra sobre los mayores secretos aún no descubiertos, así como el espacio exterior, el mar, la vida marítima o especias. El protagonista de esta pintura es curioso, y tiene la ilusión de conocer todas las verdades del mundo en algún momento.</p>
+                            </div>
+                            <button onclick="showText2()">Mostrar más</button>
+                            <button onclick="hideText2()">Mostrar menos</button> 
+                    </li>
+                    <li>
+                            <h3>Stone Harbor</h3>
+                            <figure>
+                                <img src="img/ny.jpg" alt="ciudad">
+                            </figure>
+                            <div class="description" id="description3">
+                                <h4>Descripción:</h4>
+                                <p>Esta obra pretende representar a un alma soñadora que a través de sus sueños toda la ciudad toma color, alegría y entusiasmo. El artista intenta representar esto con los colores utilizados.  </p>
+                            </div>
+                            <button onclick="showText3()">Mostrar más</button>
+                            <button onclick="hideText3()">Mostrar menos</button>
+                    </li>
+                    <li>
+                            <h3>Make Every Day Earth Day</h3>
+                            <figure>
+                                <img src="img/atardeser.jpg" alt="atardecer">
+                            </figure>
+                            <div class="description" id="description4">
+                                <h4>Descripción:</h4>
+                                <p>En esta obra se intenta expresar la profundidad del mundo natural, con sus hermosos colores y atardeceres llenos de vida. Nos invita a ver más haya del cielo , viendo la inmensidad  del mismo y todos sus secretos.</p>
+                            </div>
+                            <button onclick="showText4()">Mostrar más</button>
+                            <button onclick="hideText4()">Mostrar menos</button>
+                        </a>     
+                    </li>
+                    <li>
+                            <h3>The Doghouse Tree of Life</h3>
+                            <figure>
+                                <img src="img/casa.jpg" alt="casa">
+                            </figure>
+                            <div class="description" id="description5">
+                                <h4>Descripción:</h4>
+                                <p>Esta obra implementa su estilo de ciencia ficción, un árbol que representa un lugar de partida y todos los artistas que salen de aquel árbol.</p>
+                            </div>
+                            <button onclick="showText5()">Mostrar más</button>
+                            <button onclick="hideText5()">Mostrar menos</button>
+                        </a>     
+                    </li>
+                    <li>
+                            <h3>Bold as Love (Portada del segundo álbum de Jimmy Hendrix)</h3>
+                            <figure>
+                                <img src="img/album.jpg" alt="casa">
+                            </figure>
+                            <div class="description" id="description6">
+                                <h4>Descripción:</h4>
+                                <p>La portada del álbum representa a Hendrix y a la Experiencia como varias formas de Vishnu(Un dios del hinduismo). El periodista de “Melody Maker” Nick Jones describió la obra de arte como un "hermoso paquete desplegable”. Hendrix expresó su consternación por la elección del arte de la portada. Afirmó que la portada habría sido más apropiada si hubiera resaltado su herencia nativa americana.</p>
+                            </div>
+                            <button onclick="showText6()">Mostrar más</button>
+                            <button onclick="hideText6()">Mostrar menos</button>
+                    </li>
+                    <li>
+                            <h3>Ondas de la Ayahuasca</h3>
+                            <figure>
+                                <img src="img/ondas.jpg" alt="casa">
+                            </figure>
+                            <div class="description" id="description7">
+                                <h4>Descripción:</h4>
+                                <p>En la parte superior de la imagen, el sol irradia ondas brillantes. Como fuente de toda la vida en la tierra, el sol representa las bendiciones del patrón celestial divino, la fuente última de toda la vida en el universo que llamamos Dios</p>
+                            </div>
+                            <button onclick="showText7()">Mostrar más</button>
+                            <button onclick="hideText7()">Mostrar menos</button>
+                    </li>
+                    <li>
+                            <h3>Sex, Rock and Optical Illusions </h3>
+                            <figure>
+                                <img src="img/rock.jpg" alt="casa">
+                            </figure>
+                            <div class="description" id="description8">
+                                <h4>Descripción:</h4>
+                                <p>Victor Moscoso nos invita a conocer la banda Sex, Rock and Optical Illusion detrás de un poster psicológico y surrealista, también hace referencia a la palabra “Sex” en su nombre ya que en la obra hace referencia a una felación.</p>
+                            </div>
+                            <button onclick="showText8()">Mostrar más</button>
+                            <button onclick="hideText8()">Mostrar menos</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Seccion Galeria de Obras end-->
+
+        <!--footer start-->
+        <footer class="main-footer">
+            <div class="content">
+                <ul>
+                    <li>
+                       <a href="#" class="logo-footer">
+                            <figure>
+                                <img src="img/logo-p.svg">
+                            </figure>
+                       </a> 
+                    </li>
+
+                    <li>
+                        <h3>Home</h3>
+                        <a href="../html/index.html">BizzArt</a>
+                    </li>
+                    <li>
+                        <h3>Contactos</h3>
+                        <a>+34 098 654 312</a>
+                    </li>
+                    <li>
+                        <h3>localidades</h3>
+                        <a>Napoles, el Diego-Italia</a>
+                    </li>
+                    <li>
+                        <h3>Entradas</h3>
+                        <a href="../html/entradas.html">Comprar</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!--footer end-->
+        
+    </body>
+</html>
